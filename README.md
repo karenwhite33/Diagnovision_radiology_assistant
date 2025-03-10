@@ -1,10 +1,10 @@
 # **DiagnoVision: Multimodal Assistant for Chest X-Ray Analysis & Report Generation**
 
-Pain Point
+## **Pain Point**
 
 Delays in diagnoses and appropriate treatments due to a lack of technological implementation and continuous training to streamline the workflow of radiologists and physicians when analyzing medical images such as X-rays.
 
-**Challenges in radiology workflow**
+### **Challenges in radiology workflow**
 
 1️⃣ Image Quality Issues
 
