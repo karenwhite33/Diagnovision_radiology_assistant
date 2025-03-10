@@ -1,6 +1,6 @@
-# **DiagnoVision: Multimodal Assistant for Chest X-Ray Analysis & Report Generation**
+# 💻 **DiagnoVision: Multimodal Assistant for Chest X-Ray Analysis & Report Generation**
 
-## **Pain Point**
+## ⁉️ **Pain Point**
 
 Delays in diagnoses and appropriate treatments due to a lack of technological implementation and continuous training to streamline the workflow of radiologists and physicians when analyzing medical images such as X-rays.
 
@@ -41,7 +41,9 @@ Time-consuming need to document and justify every finding.
 Compliance with radiation protection and ethical protocols.
 These pain points highlight the need for AI-powered solutions like DiagnoVision to enhance efficiency, reduce errors, and support radiologists in their diagnostic workflow.
 
-# Our Solution
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# ✅ Our Solution
 
 ## **DIAGNOVISION**
 
@@ -49,6 +51,7 @@ AI-powered radiology assistant capable of automatically analyzing chest X-rays u
 
 The tool enables critical case prioritization, structured report generation, and decision support for radiologists, enhancing diagnostic efficiency and accuracy.
 
+------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🛠 **Technology Stack**
 
