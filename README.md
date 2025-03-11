@@ -54,6 +54,8 @@ AI-powered radiology assistant capable of automatically analyzing chest X-rays u
 
 The tool enables critical case prioritization, structured report generation, and decision support for radiologists, enhancing diagnostic efficiency and accuracy.
 
+DEMO: ⏯️📽️ https://drive.google.com/file/d/1tu_tkyFKcYj-S9EgVjA2kqWz4Jjrzvuo/view?usp=drive_link
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🛠 **Technology Stack**
@@ -104,6 +106,44 @@ Decision support for medical professionals, reducing cognitive load.
 🔹 Model optimization for enhanced performance.
 
 🔹 Deployment in clinical environments to assist radiologists.
+
+
+----------------------------------------------------------------------------------------------------
+
+# **DIAGNOVISION PHASES**
+
+1️⃣ Data Preparation
+
+Chest X-ray preprocessing: Resized to 224x224, normalized pixel values.
+Text preprocessing: Tokenized and structured radiology reports for NLP classification.
+
+2️⃣ Model Architecture
+
+Vision Transformer (ViT - google/vit-base-patch16-224): Classified 12 pathologies from X-ray images (89.85% accuracy).
+
+Random Forest NLP classifier: Predicted pathology labels from reports (F1-score: 0.98).
+
+LLM (HuatuoGPT-7B): Generated structured radiology reports based on model outputs.
+
+3️⃣ Model Fusion & Optimization
+
+Combined ViT image predictions with Random Forest probability outputs to improve pathology classification reliability.
+
+4️⃣ Evaluation & Metrics
+
+ViT Model: 89.85% test accuracy.
+
+Random Forest Text Classifier: Precision, recall, and F1-score up to 0.98.
+
+5️⃣ FastAPI Deployment on Google Cloud Run
+
+Deployed the system via FastAPI, exposing endpoints for image upload, pathology classification, and report generation.
+
+Integrated asynchronous processing for real-time inference and response handling.
+
+Hosting on Google Cloud Run for a globally accessible API link with auto-scaling.
+
+
 
 
 
