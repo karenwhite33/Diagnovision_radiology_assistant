@@ -56,6 +56,9 @@ The tool enables critical case prioritization, structured report generation, and
 
 DEMO: ⏯️📽️ https://drive.google.com/file/d/1tu_tkyFKcYj-S9EgVjA2kqWz4Jjrzvuo/view?usp=drive_link
 
+![image](https://github.com/user-attachments/assets/0e53a686-2b66-4d25-970a-4c402f4fd84a)
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🛠 **Technology Stack**
@@ -143,9 +146,7 @@ Integrated asynchronous processing for real-time inference and response handling
 
 Hosting on Google Cloud Run for a globally accessible API link with auto-scaling.
 
-GRADIO
 
-![image](https://github.com/user-attachments/assets/b70a79be-022f-4269-a9df-a4b34eb87232)
 
 
 
