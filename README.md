@@ -143,6 +143,9 @@ Integrated asynchronous processing for real-time inference and response handling
 
 Hosting on Google Cloud Run for a globally accessible API link with auto-scaling.
 
+GRADIO
+
+![image](https://github.com/user-attachments/assets/b70a79be-022f-4269-a9df-a4b34eb87232)
 
 
 
