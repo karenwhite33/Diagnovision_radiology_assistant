@@ -3,28 +3,24 @@ name: Strip Jupyter widget metadata
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
+
+permissions:
+  contents: write
 
 jobs:
   strip-widgets:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Strip widget metadata from notebooks
+      - name: Remove metadata.widgets
         run: |
-          find . -type f -name '*.ipynb' -print0 \
-            | while IFS= read -r -d '' nb; do
-                jq 'del(.metadata.widgets)' "$nb" > "$nb.tmp" \
-                  && mv "$nb.tmp" "$nb"
-              done
-
-      - name: Commit & push cleaned notebooks
+          find . -type f -name '*.ipynb' -print0 |
+          while IFS= read -r -d '' nb; do
+            jq 'del(.metadata.widgets)' "$nb" > "$nb.tmp" && mv "$nb.tmp" "$nb"
+          done
+      - name: Commit cleaned notebooks
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '🧹 Strip widget metadata from notebooks'
-          branch: ${{ github.ref_name }}
+          commit_message: "🧹 Strip widget metadata"
