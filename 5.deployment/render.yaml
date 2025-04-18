@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: diagnovision
+    env: docker
+    plan: free
+    repo: https://github.com/karenwhite33/Diagnovision_radiology_assistant
+    branch: main
+    rootDir: 5.deployment
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: PORT
+        value: 7860
