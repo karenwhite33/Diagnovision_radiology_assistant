@@ -4,9 +4,9 @@ import requests
 import threading
 from apiapp4 import app
 
-TEXT_API_URL   = "http://127.0.0.1:8000/upload_text/"
-IMAGE_API_URL  = "http://127.0.0.1:8000/upload_image/"
-REPORT_API_URL = "http://127.0.0.1:8000/generate_report/"
+TEXT_API_URL   = "http://0.0.0.0:8000/upload_text/"
+IMAGE_API_URL  = "http://0.0.0.0:8000/upload_image/"
+REPORT_API_URL = "http://0.0.0.0:8000/generate_report/"
 
 def query_text_api(text):
     r = requests.post(TEXT_API_URL, json={"text": text})
