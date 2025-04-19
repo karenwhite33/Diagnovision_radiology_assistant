@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+gradio
+torch
+torchvision
+timm
+scikit-learn
+joblib
+pillow
+transformers
+huggingface_hub
