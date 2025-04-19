@@ -56,7 +56,8 @@ The tool enables critical case prioritization, structured report generation, and
 
 DEMO: ⏯️📽️ https://drive.google.com/file/d/1tu_tkyFKcYj-S9EgVjA2kqWz4Jjrzvuo/view?usp=drive_link
 
-![image](https://github.com/user-attachments/assets/0e53a686-2b66-4d25-970a-4c402f4fd84a)
+![image](https://github.com/user-attachments/assets/58e940f1-9e79-45ba-acec-20b7704a1198)
+
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
