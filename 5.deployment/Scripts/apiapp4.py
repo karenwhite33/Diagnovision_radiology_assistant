@@ -126,3 +126,6 @@ async def generate_report(texto1: Dict[str,Any], texto2: Dict[str,Any]):
         lines.append(f"Recommendations: 1. {recs[0]}; 2. {recs[1]}")
     report = '---------------------------------\n' + '\n'.join(lines) + '\n---------------------------------'
     return {'report': report}
+
+# ✅ Load models manually if TestClient is used (Gradio app)
+load_models()
