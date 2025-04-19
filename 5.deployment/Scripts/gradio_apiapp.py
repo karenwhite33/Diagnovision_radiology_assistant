@@ -1,9 +1,6 @@
 import gradio as gr
-import uvicorn
-import threading
-from apiapp4 import app
-from apiapp4 import upload_text, upload_image, generate_report
 from fastapi.testclient import TestClient
+from apiapp4 import app
 
 client = TestClient(app)
 
@@ -48,7 +45,6 @@ iface = gr.Interface(
 )
 
 def start_servers():
-    # No need to run uvicorn separately when using TestClient.
     iface.launch(server_name="0.0.0.0", server_port=7860)
 
 if __name__ == "__main__":
