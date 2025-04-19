@@ -1,7 +1,7 @@
 import gdown
 import os
 
-os.makedirs("models", exist_ok=True)
+os.makedirs("/app/models", exist_ok=True)
 
 files = {
     "vit_model_gpu.pth": "1-DXMLLmEPgie_1vwmtfM2BEEt560TPVw",
@@ -11,6 +11,6 @@ files = {
 
 for name, file_id in files.items():
     url = f"https://drive.google.com/uc?id={file_id}"
-    dest = f"models/{name}"
+    dest = f"/app/models/{name}"
     print(f"Downloading {name}...")
     gdown.download(url, dest, quiet=False)
