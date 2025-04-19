@@ -32,4 +32,4 @@ RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://
 EXPOSE 8000 7860
 
 # Start FastAPI + Gradio together
-CMD ["sh", "-c", "uvicorn apiapp4:app --host 0.0.0.0 --port 8000 & python gradio_apiapp.py"]
+CMD ["python", "gradio_apiapp.py"]
