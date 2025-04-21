@@ -12,7 +12,7 @@ import torchvision.transforms as T
 from typing import Dict, Any
 
 # Threshold for reporting a pathology as present
-PRESENT_THRESHOLD = 0.4
+PRESENT_THRESHOLD = 0.35
 
 # Pathology labels
 PATHOLOGIES = [
