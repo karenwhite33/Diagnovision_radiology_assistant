@@ -58,8 +58,8 @@ DEMO: ⏯️📽️ https://drive.google.com/file/d/1tu_tkyFKcYj-S9EgVjA2kqWz4Jj
 
 ![image](https://github.com/user-attachments/assets/58e940f1-9e79-45ba-acec-20b7704a1198)
 
-# **TRY IT HERE** ➡️ https://huggingface.co/spaces/karenwhiteg/diagnovision-app
-## Use any of your x-ray's images or use this samples: 
+## **TRY IT HERE** ➡️ https://huggingface.co/spaces/karenwhiteg/diagnovision-app
+### Use any of your x-ray's images or use this samples: 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
